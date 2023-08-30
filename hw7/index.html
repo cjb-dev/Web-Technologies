@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>4 Function Calculator</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h2 id="header">4 Function Calculator</h2>
+    <div id="content">
+      <form>
+        <div class="form-group">
+          <label for="number1">Enter first number: </label>
+          <input type="text" class="form-control" id="number1" />
+        </div>
+        <div class="form-group">
+          <label for="number2">Enter second number: </label>
+          <input type="text" class="form-control" id="number2" />
+        </div>
+        <div>
+          <label for="functionOperator">Operation: </label>
+          <select class="form-control" id="functionOperator">
+            <option>+</option>
+            <option>-</option>
+            <option>/</option>
+            <option>*</option>
+          </select>
+        </div>
+        <div id="calcButton">
+          <button type="button" class="btn btn-primary" onclick="calculate()">
+            Calculate
+          </button>
+        </div>
+      </form>
+    </div>
+    <div>
+      <h3 id="output">Answer will display here.</h3>
+    </div>
+  </body>
+  <script src="assets/js/calculator.js"></script>
+</html>
