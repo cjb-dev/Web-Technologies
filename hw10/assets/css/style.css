@@ -1,0 +1,268 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  background-color: #f6f6f6;
+}
+
+.page_intro {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.content {
+  padding-bottom: 3em;
+}
+
+.textContent {
+  padding: 3em;
+}
+
+.baab {
+  width: 100%;
+  height: 100%;
+  min-width: 30%;
+  min-height: 30%;
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.col-md-4,
+.col-md-8 {
+  justify-content: center;
+}
+
+.banner {
+  padding: 10px;
+  background-color: #1a1a1a;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.description {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+  text-align: center;
+  font-size: 16px;
+}
+
+.navActive {
+  background-color: rgb(255, 2, 82);
+}
+
+.navActive:hover {
+  font-weight: bold;
+}
+
+.gameProjImage {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hackImage,
+.calcImage {
+  max-width: 45%;
+  max-height: 45%;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.projImages {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  /*min-width: fit-content;*/
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-top: 3em;
+}
+
+/*Pretty sure the color is being weird and it probably would have been preferable to use buttons... but oh well*/
+.navLink {
+  color: rgb(215, 215, 215);
+}
+
+.navItem {
+  background-color: rgb(51, 51, 51);
+}
+
+.navItem:hover {
+  background-color: rgb(39, 39, 39);
+  font-weight: bold;
+}
+
+footer {
+  padding: 8px;
+  padding-left: 3em;
+  color: rgb(198, 198, 198);
+  background-color: #1a1a1a;
+  /*align-items: center;
+  background-color: #fb5cab;*/
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  width: 100%;
+  bottom: 0;
+  position: relative;
+}
+
+.virusGame,
+.baseConverter {
+  background-color: #c3d5e7;
+  padding-left: 8em;
+  padding-right: 8em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.hackathon,
+.cardGame {
+  background-color: #dcebf4;
+  padding-left: 8em;
+  padding-right: 8em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#buttabun:hover {
+  color: rgb(213, 0, 68);
+  font-weight: bolder;
+}
+
+.projTitle {
+  font-size: large;
+}
+
+table {
+  background-color: rgb(50, 177, 205);
+  border: 10px solid;
+  border-color: rgb(50, 177, 205);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  width: 50%;
+}
+
+th {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+.tableImage {
+  /*
+  max-width: 102px;
+  max-height: 149px;
+  */
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  display: flex;
+  padding: 3px;
+}
+
+.artSample {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+#charDesign {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+}
+
+.profilePic {
+  border-radius: 50px;
+}
+
+.homeRow {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.homeImage {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contactForm {
+  /*padding-left: 25em;
+  padding-right: 25em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #c3d5e7;
+  border-radius: 10px;*/
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.formContainer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  background-color: #c3d5e7;
+  border-radius: 15px;
+  border-color: #c3d5e7;
+  border-style: solid;
+  border-width: 2em;
+}
+
+hr {
+  border-top: 2px solid white;
+}
+
+.submitButton {
+  width: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  font-size: large;
+}
+
+.submitButton:hover {
+  font-weight: bold;
+}
+
